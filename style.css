@@ -1,0 +1,111 @@
+body {
+    background-color: rgba(0, 255, 255, 0.698);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    justify-content: center;
+    margin: 0;
+}
+
+header h1 {
+    padding: 150px 0px 100px 0px;
+    text-align: center;
+    border-bottom: 2px solid silver;
+    background-image: url('https://stephenbayphotography.com/images/max/sunrise-panorama-of-san-diego-skyline-and-bay-131513.webp'); 
+    background-blend-mode: overlay;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+h1 {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-size: 3rem;           
+    font-weight: 700;          
+    letter-spacing: -1px;      
+    text-transform: uppercase; 
+    text-align: center;
+    margin: 0 auto;
+    color: white;
+    text-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); 
+    white-space: nowrap;
+}
+
+
+#top-spots {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    padding: 40px;
+    max-width: 1200px;
+}
+
+table {
+    border-collapse: separate;
+    border-spacing: 0;
+    width: 100%;
+    background: white;
+    border-radius: 12px; /* Increased for a more modern feel */
+    overflow: hidden; 
+    box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+    border: 1px solid #eee;
+}
+
+th {
+    background-color: #f8f9fa;
+    color: #666;
+    text-transform: uppercase;
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    padding: 18px 20px;
+    border-bottom: 2px solid #eee;
+}
+
+td {
+    padding: 20px;
+    border-bottom: 1px solid #eee;
+    color: #444;
+    line-height: 1.6;
+    vertical-align: top;
+}
+
+/* Specific Column Styling */
+td:nth-child(1) { 
+    width: 25%; 
+    font-weight: 600; 
+    color: #222; 
+} 
+
+td:nth-child(2) { 
+    width: 65%; 
+    font-size: 0.95rem;
+    border-left: 1px solid #f0f0f0;
+    border-right: 1px solid #f0f0f0;
+} 
+
+td:nth-child(3) { 
+    width: 10%; 
+    text-align: center; 
+}
+
+/* Link Styling */
+td:nth-child(3) a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+    border-bottom: 1px solid transparent;
+    transition: all 0.2s;
+}
+
+td:nth-child(3) a:hover {
+    border-bottom: 1px solid #007bff;
+}
+
+/* Clean up the very last row */
+tr:last-child td {
+    border-bottom: none;
+}
+
+tr:hover {
+    background-color: #fcfdfe;
+}
