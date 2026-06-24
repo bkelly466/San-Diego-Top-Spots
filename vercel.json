@@ -2,6 +2,5 @@
   "buildCommand": "echo 'No build required'",
   "outputDirectory": "public",
   "devCommand": "npm start",
-  "installCommand": "npm install --ignore-scripts",
-  "functions": {}
+  "installCommand": "npm install --ignore-scripts"
 }
